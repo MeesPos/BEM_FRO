@@ -20,9 +20,9 @@ main{
     padding: 0 2em;
 }
 
-section{
+.infoblok{
     color: $secundaire-kleur-donker;
-    h2{
+    &__kop{
         font-size: 2em;
         padding: 1em;
         text-align: center;

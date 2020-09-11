@@ -12,47 +12,47 @@
     <div class="logo"><i class="fab fa-sass"></i></div>
     <label class="menu-halen" for="haal-menu"><i class="fas fa-bars"></i><i class="fas fa-times"></i></label>
     <link rel="stylesheet" href="css/style.css">
-    <nav>
-        <ul>
-            <li><a href="#" class="actief">Home</a></li>
-            <li><a href="#">Over ons</a></li>
-            <li><a href="#">Aanbod</a></li>
-            <li><a href="#">Contact</a></li>
+    <nav class="navbar">
+        <ul class="navbar__ul">
+            <li class="navbar__item"><a href="#" class="navbar__link navbar__actief">Home</a></li>
+            <li class="navbar__item"><a href="#" class="navbar__link">Over ons</a></li>
+            <li class="navbar__item"><a href="#" class="navbar__link">Aanbod</a></li>
+            <li class="navbar__item"><a href="#" class="navbar__link">Contact</a></li>
         </ul>
     </nav>
     <div class="container">
-        <header>
-            <h1>Site met Sass</h1>
-            <p>een oefening voor FRO</p>
-            <button class="knop">meer</button>
+        <header class="header">
+            <h1 class="header__kop">Site met Sass</h1>
+            <p class="header__omschrijving">een oefening voor FRO</p>
+            <button class="header__knop">meer</button>
         </header>
         <main>
-            <section>
-                <h2><i class="fas fa-globe-europe"></i></h2>
-                <p>
+            <section class="infoblok">
+                <h2 class="infoblok__kop"><i class="fas fa-globe-europe"></i></h2>
+                <p class="infoblok__inhoud">
                     Deze pagina kan ook zonder Sass gemaakt worden. Met Sass is het echter overzichtelijker voor de developer. De Sass bestanden worden wel op GitHub geplaatst maar staan niet in de upload: ze zijn immers alleen voor de ontwikkelaar, de CSS wordt eruit gecompileerd.
                 </p>
-                <div class="knop-houder">
-                    <button class="knop">meer</button>
+                <div class="infoblok__knop-houder">
+                    <button class="infoblok__knop">meer</button>
                 </div>
             </section>
-            <section>
-                <h2><i class="fas fa-headphones-alt"></i></h2>
-                <p>
+            <section class="infoblok">
+                <h2 class="infoblok__kop"><i class="fas fa-headphones-alt"></i></h2>
+                <p class="infoblok__inhoud">
                     De belangrijkste onderdelen van deze training zijn de installatie en het starten van Sass, het verschil tussen .scss- en .sass-bestanden. Pas dat hier zeker toe.
                 </p>
                 
-                <div class="knop-houder">
-                    <button class="knop">meer</button>
+                <div class="infoblok__knop-houder">
+                    <button class="infoblok__knop">meer</button>
                 </div>
             </section>
-            <section>
-                <h2><i class="fab fa-pagelines"></i></h2>
-                <p>
+            <section class="infoblok">
+                <h2 class="infoblok__kop"><i class="fab fa-pagelines"></i></h2>
+                <p class="infoblok__inhoud">
                     UIt het rijke palet van mogelijkheden van Sass gebruik je hier in ieder geval variabelen en partials. Probeer ook mixins en bedenk je eigen namen voor bestanden en variabelen. Maak ook eens een andere keuze voor .sass/.scss dan de instructie!
                 </p>
-                <div class="knop-houder">
-                    <button class="knop">meer</button>
+                <div class="infoblok__knop-houder">
+                    <button class="infoblok__knop">meer</button>
                 </div>
             </section>
         </main>

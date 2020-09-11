@@ -1,15 +1,16 @@
 // Ik heb SASS ipv SCSS gebruikt om dit even voor mezelf nog goed aan te leren
 
-nav
+    // Navbar moet nog gefixed worden 
+.navbar
     background-color: #ddd
     position: absolute
-    a
+    & .navbar__link
         text-decoration: none
         display: block
         padding: .5em 5em .5em 2em 
         border-bottom: 1px solid #fff
         color: $secundaire-kleur-donker
-    a.actief
+        & .navbar__actief
         border-bottom: 4px solid $contrast-kleur
 
 // Container verplaatsen met checkbox
